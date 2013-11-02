@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Saito"]
   spec.email         = ["saitowu@gmail.com"]
   spec.description   = %q{Ruby Handlebars is a bridge to the JS Handlebars compiler.}
-  spec.summary       = %q{A bridge to the JS Handlebars compiler.}
-  spec.homepage      = ""
+  spec.summary       = %q{bridge to the JS Handlebars compiler.}
+  spec.homepage      = "https://github.com/SaitoWu/handlebar.rb"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
