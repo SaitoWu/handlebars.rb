@@ -1,6 +1,6 @@
 # Handlebars.rb
 
-TODO: Write a gem description
+Ruby Handlebars is a bridge to the JS Handlebars compiler.
 
 ## Installation
 
@@ -18,7 +18,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+[1] pry(main)> require'handlebars'
+=> true
+[2] pry(main)> Handlebars.version
+=> "1.0.0"
+[3] pry(main)> Handlebars.precompile("<p>Hello World</p>")
+=> "function (Handlebars,depth0,helpers,partials,data) {\n  this.compilerInfo = [4,'>= 1.0.0'];\nhelpers = this.merge(helpers, Handlebars.helpers); data = data || {};\n  \n\n\n  return \"<p>Hello World</p>\";\n  }"
+```
 
 ## Contributing
 
