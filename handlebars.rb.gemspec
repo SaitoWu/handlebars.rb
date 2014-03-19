@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "execjs", "~> 2.0"
-  spec.add_dependency "handlebars-source", "~> 1.1.2"
+  spec.add_dependency "handlebars-source", "~> 1.3.0"
 
   spec.add_development_dependency "rake"
   spec.add_development_dependency "rspec", "~> 2.14"

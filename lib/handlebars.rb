@@ -13,8 +13,8 @@ module Handlebars
     end
 
     def self.version
-      # Handlebars.VERSION = "1.0.0";
-      @version ||= contents[/Handlebars\.VERSION\s=\s\"([\d.]+)\"/, 1]
+      # var VERSION = "1.3.0";
+      @version ||= contents[/var\sVERSION\s=\s\"([\d.]+)\"/, 1]
     end
 
     def self.context
