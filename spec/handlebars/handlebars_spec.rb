@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe Handlebars do
   it "should has version" do
-    Handlebars.version.should == "1.0.0"
+    Handlebars.version.should >= "4.0.0"
   end
 
   it "should enable to precompile handlebars template" do

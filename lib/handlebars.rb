@@ -14,7 +14,7 @@ module Handlebars
 
     def self.version
       # var VERSION = "1.3.0";
-      @version ||= contents[/var\sVERSION\s=\s\"([\d.]+)\"/, 1]
+      @version ||= contents[/var\sVERSION\s=\s\'([\d.]+)\'/, 1]
     end
 
     def self.context
